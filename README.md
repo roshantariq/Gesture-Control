@@ -2,7 +2,7 @@
 
 This project uses computer vision and machine learning to recognise hand gestures via webcam and perform actions in **Windows Media Player**, **VLC**, or **Microsoft PowerPoint**. It's built with OpenCV, MediaPipe, and a custom-trained gesture classifier, with a custom dataset.
 
-> ✨ Designed for real-time control of media and presentations using simple hand gestures without the use of a keyboard.
+✨ Designed for real-time control of media and presentations using simple hand gestures without the use of a keyboard.
 
 ---
 
