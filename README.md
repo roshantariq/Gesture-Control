@@ -57,10 +57,14 @@ Model saved as: `models/gesture_classifier.pkl`
 4. Run the main script:
    ```bash
    python predict_gesture_live.py
-5. To collect new gesture samples and train your own classifier:
+5. To stop the script:
+   - Focus the camera feed window
+   - Press "q" to exit the live classification
+6. To collect new gesture samples and train your own classifier:
    ```bash
    python gesture_recognition_base.py  # Collect samples
    python train_gesture_model.py       # Train model & save to models
+
 
 ## 💡 Motivation
 
