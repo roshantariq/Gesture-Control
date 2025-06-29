@@ -32,14 +32,14 @@ Model saved as: `models/gesture_classifier.pkl`
 
 ## 🛠️ Project Structure
 
-data/ # Collected gesture data (.csv)
-trained model/ # Pre-trained classifier (.pkl)
-requirements.txt # Dependencies
-gesture_recognition_base.py # Script to collect custom gesture samples (Change the name of the file in line 11 for each new custom gesture dataset created)
-train_gesture_model.py # Train & save gesture classification model on the custom dataset
-gesture_actions.py # Maps gestures to app-specific actions
-predict_gesture_live.py # Main script: runs live gesture detection + triggers actions
-README.md
+- data/ # Collected gesture data (.csv)
+- trained model/ # Pre-trained classifier (.pkl)
+- requirements.txt # Dependencies
+- gesture_recognition_base.py # Script to collect custom gesture samples (Change the name of the file in line 11 for each new custom gesture dataset created)
+- train_gesture_model.py # Train & save gesture classification model on the custom dataset
+- gesture_actions.py # Maps gestures to app-specific actions
+- predict_gesture_live.py # Main script: runs live gesture detection + triggers actions
+- README.md
 
 ## ▶️ How to Run
 
