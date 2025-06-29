@@ -53,7 +53,7 @@ Model saved as: `models/gesture_classifier.pkl`
    conda activate gesture-env
 3. Install dependencies:
    ```bash
-   pip install -r requirements/requirements.txt
+   pip install -r requirements.txt
 4. Run the main script:
    ```bash
    python predict_gesture_live.py
