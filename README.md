@@ -43,6 +43,8 @@ Model saved as: `models/gesture_classifier.pkl`
 
 ## ▶️ How to Run
 
+NOTE : These steps assume you're using Anaconda Prompt or any terminal where conda is installed and recognised. If you're on Windows, use Anaconda Prompt, not the regular Command Prompt.
+
 1. **Clone the repo** and navigate into it:
    ```bash
    git clone https://github.com/roshantariq/Gesture-Control.git
@@ -65,6 +67,7 @@ Model saved as: `models/gesture_classifier.pkl`
    python gesture_recognition_base.py  # Collect samples
    python train_gesture_model.py       # Train model & save to models
 
+NOTE : If you see 'conda' is not recognised, make sure you’re using Anaconda Prompt or that Anaconda is properly added to your system PATH.
 
 ## 💡 Motivation
 
