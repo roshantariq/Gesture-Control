@@ -69,9 +69,9 @@ This project combines my passion for real-world machine learning applications wi
 Built as part of my portfolio to demonstrate applied ML skills in both classification and deployment.
 
 ## 🛠️ Tech Stack
-Python 3.10
-OpenCV
-MediaPipe
-scikit-learn
-PyAutoGUI
-pygetwindow
+- Python 3.10
+- OpenCV
+- MediaPipe
+- scikit-learn
+- PyAutoGUI
+- pygetwindow
