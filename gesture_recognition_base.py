@@ -5,11 +5,11 @@ import numpy as np
 import mediapipe as mp
 from datetime import datetime
 
-# === CONFIGURATION ===
+# CONFIGURATION 
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# === INITIALIZATION ===
+# INITIALIZATION
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
@@ -57,7 +57,7 @@ while cap.isOpened():
 cap.release()
 cv2.destroyAllWindows()
 
-# === PROMPT FOR LABEL AND SAVE ===
+# LABEL AND SAVE
 if collected_samples:
     GESTURE_LABEL = input("Enter gesture label to save: ")
     CSV_FILE = os.path.join(DATA_DIR, f"{GESTURE_LABEL}.csv")
