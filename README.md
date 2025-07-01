@@ -35,7 +35,8 @@ Model saved as: `models/gesture_classifier.pkl`
 - data/ # Collected gesture data (.csv)
 - trained model/ # Pre-trained classifier (.pkl)
 - requirements.txt # Dependencies
-- gesture_recognition_base.py # Script to collect custom gesture samples (Change the name of the file in line 11 for each new custom gesture dataset created)
+- gesture_recognition_base_prev.py # Previous Script to collect custom gesture samples with manual File name change in code (Change the name of the file in line 11 for each new custom gesture dataset created)
+- gesture_recognition_base.py # Updated Script to collect custom gesture samples that can be run as is with the option to choose file name upon ending script
 - train_gesture_model.py # Train & save gesture classification model on the custom dataset
 - gesture_actions.py # Maps gestures to app-specific actions
 - predict_gesture_live.py # Main script: runs live gesture detection + triggers actions
@@ -45,7 +46,7 @@ Model saved as: `models/gesture_classifier.pkl`
 
 NOTE : These steps assume you're using Anaconda Prompt or any terminal where conda is installed and recognised. If you're on Windows, use Anaconda Prompt, not the regular Command Prompt.
 
-1. **Clone the repo** and navigate into it:
+1. Clone the repo and navigate into it:
    ```bash
    git clone https://github.com/roshantariq/Gesture-Control.git
    cd Gesture-Control
