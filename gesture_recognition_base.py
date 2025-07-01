@@ -5,12 +5,12 @@ import numpy as np
 import mediapipe as mp
 from datetime import datetime
 
-# === CONFIGURATION ===
+# CONFIGURATION
 GESTURE_LABEL = "Fist"  # Change this when collecting each gesture
 DATA_DIR = "data"
 CSV_FILE = os.path.join(DATA_DIR, f"{GESTURE_LABEL}.csv")
 
-# === INITIALIZATION ===
+# INITIALIZATION
 os.makedirs(DATA_DIR, exist_ok=True)
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
