@@ -8,13 +8,13 @@ from gesture_actions import trigger_action
 import time
 
 
-# === LOAD MODEL AND TOOLS ===
+# LOAD MODEL AND TOOLS
 model_bundle = joblib.load("models/gesture_classifier.pkl")
 model = model_bundle["model"]
 scaler = model_bundle["scaler"]
 label_encoder = model_bundle["label_encoder"]
 
-# === MEDIAPIPE SETUP ===
+# MEDIAPIPE SETUP
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
@@ -22,7 +22,6 @@ hands = mp_hands.Hands(min_detection_confidence=0.7, min_tracking_confidence=0.7
 
 cap = cv2.VideoCapture(0)
 print("Press 'q' to quit.")
-
 
 gesture_cooldown = 1.0  # seconds
 last_time = time.time()
