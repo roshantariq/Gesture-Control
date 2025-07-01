@@ -1,4 +1,4 @@
-# Gesture-Controlled Media and Presentation Controller 🎯🤘
+# Gesture-Controlled Media and Presentation Controller
 
 This project uses computer vision and machine learning to recognise hand gestures via webcam and perform actions in **Windows Media Player**, **VLC**, or **Microsoft PowerPoint**. It's built with OpenCV, MediaPipe, and a custom-trained gesture classifier, with a custom dataset.
 
@@ -6,7 +6,7 @@ This project uses computer vision and machine learning to recognise hand gesture
 
 ---
 
-## 📸 Gestures & Mapped Actions
+## Gestures & Mapped Actions
 
 | Gesture     | PowerPoint        | Media Player / VLC      |
 |-------------|-------------------|--------------------------|
@@ -18,7 +18,7 @@ This project uses computer vision and machine learning to recognise hand gesture
 
 ---
 
-## 🧠 Model Performance
+## Model Performance
 
 The model was trained on 5 gestures, with over 100 - 150 samples each, achieving:
 
@@ -30,7 +30,7 @@ Model saved as: `models/gesture_classifier.pkl`
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 - data/ # Collected gesture data (.csv)
 - trained model/ # Pre-trained classifier (.pkl)
