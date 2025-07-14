@@ -42,7 +42,7 @@ Model saved as: `models/gesture_classifier.pkl`
 - predict_gesture_live.py # Main script: runs live gesture detection + triggers actions
 - README.md
 
-## ▶️ How to Run
+## How to Run
 
 NOTE : These steps assume you're using Anaconda Prompt or any terminal where conda is installed and recognised. If you're on Windows, use Anaconda Prompt, not the regular Command Prompt.
 
@@ -70,13 +70,13 @@ NOTE : These steps assume you're using Anaconda Prompt or any terminal where con
 
 NOTE : If you see 'conda' is not recognised, make sure you’re using Anaconda Prompt or that Anaconda is properly added to your system PATH.
 
-## 💡 Motivation
+## Motivation
 
 This project combines my passion for real-world machine learning applications with computer vision. It's designed to show how intuitive human-computer interaction can be — and it works fully offline, in real-time.
 
 Built as part of my portfolio to demonstrate applied ML skills in both classification and deployment.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python 3.10
 - OpenCV
 - MediaPipe
